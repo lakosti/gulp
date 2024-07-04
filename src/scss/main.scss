@@ -1,0 +1,8 @@
+// @import "./blocks/nav";
+
+//*підключаємо всі файли з blocks (щоб не підключати кожен окремо)
+@import "./blocks/*.scss";
+
+body {
+  background-color: url(../img/ingredient-4.png);
+}
